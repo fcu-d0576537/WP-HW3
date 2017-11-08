@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+	<title>
+		<meta charset = "utf-8">
+		<title>Temperature conversion</title>
+		<script type = "text/javascript">
+			var Celsius;
+			var Fahrenheit;
+			
+			Celsius = window.prompt("Please enter Celsius Temperature");
+			
+			document.writeln("<h1>The Celsius Temperature your enter is " + parseInt(Celsius) + "</h1>");
+			document.writeln("<h1>Fahrenheit Temperature is " + conversion(Celsius) + "</h1>");
+			
+			function conversion(Celsius)
+			{
+				return parseInt(Celsius) * (9/5) + 32;
+			}
+			
+		</script>
+	</title>
+</html>
